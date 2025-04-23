@@ -1,17 +1,17 @@
 
-
 ## 🔹 Überblick
+
 - In Kotlin werden Funktionen mit dem Schlüsselwort **`fun`** deklariert.
 - Funktionen können **Parameter** und **Rückgabewerte** haben oder auch ohne diese auskommen.
-- Kotlin unterstützt **Typinferenz**, sodass der Rückgabetyp häufig nicht explizit angegeben werden muss.
 
 ## 🔹 Funktionsdeklaration
-- Die Grundstruktur einer Funktion:
-```kotlin
-  fun funktionName(parameter1: Typ1, parameter2: Typ2): Rückgabetyp {
-      // Funktionskörper
-  }
-```
+
+>[!tip] Die Grundstruktur einer Funktion:
+>```kotlin
+  >fun funktionName(parameter1: Typ1, parameter2: Typ2): Rückgabetyp {
+    >  // Funktionskörper
+  >}
+>```
 
 > [!example] Beispiel: Einfache Funktion
 >```kotlin
@@ -23,29 +23,39 @@
 
 ## 🔹 Rückgabewert
 
-- Eine Funktion kann einen **Rückgabewert** haben, der mit dem angegebenen **Rückgabetyp** übereinstimmt.
-- Falls eine Funktion keinen Rückgabewert hat, wird der **`Unit`**-Typ verwendet.
+- Eine Funktion kann einen **Rückgabewert** haben, der mit dem angegebenen **Rückgabetyp** übereinstimmen muss.
+- Der Rückgabetyp wird **nach dem Parameterblock mit `:`** angegeben.
+- Falls eine Funktion **nichts zurückgibt**, wird der Typ **`Unit`** verwendet (ähnlich wie `void` in anderen Sprachen).
 
->[!example] Beispiel: Funktion ohne Rückgabewert
->```kotlin
->fun sagHallo() {
->	println("Hallo!")
->}
->```
+> [!example] Beispiel: Funktion mit Rückgabewert  
+> ```kotlin
+> fun quadrat(x: Int): Int {
+>     return x * x
+> }
+> ```
+
+> [!example] Beispiel: Funktion ohne Rückgabewert (`Unit`)  
+> ```kotlin
+> fun sagHallo(): Unit {
+>     println("Hallo!")
+> }
+> ```
+
+---
 
 ## 🔹 Typinferenz bei Rückgabewerten
 
-- Der Rückgabetyp einer Funktion kann durch den **Kotlin-Compiler** automatisch abgeleitet werden.    
+- Der Rückgabetyp kann weggelassen werden, wenn der Compiler ihn automatisch ableiten kann (z. B. bei Einzeilern).
 
-> [!example] Beispiel: Typinferenz
+> [!example] Beispiel: Typinferenz  
 > ```kotlin
-> fun multipliziere(a: Int, b: Int) = a * b  // Rückgabetyp wird automatisch als Int ermittelt
+> fun multipliziere(a: Int, b: Int) = a * b  // Rückgabetyp: Int
 > ```
+
 
 ## 🔹 Standardwerte für Parameter
 
 - In Kotlin können Parametern **Standardwerte** zugewiesen werden, sodass sie optional werden.
-    
 
 > [!example] Beispiel: Funktion mit Standardwerten> 
 > ```kotlin
@@ -60,7 +70,6 @@
 ## 🔹 Varargs (Variadic Arguments)
 
 - Kotlin unterstützt **varargs**, sodass eine Funktion eine beliebige Anzahl von Argumenten eines bestimmten Typs entgegennehmen kann.
-    
 
 > [!example] Beispiel: varargs
 > ```kotlin
@@ -72,7 +81,6 @@
 ## 🔹 Funktionsüberladung
 
 - In Kotlin können Funktionen **überladen** werden, indem mehrere Funktionen mit dem gleichen Namen existieren, aber unterschiedliche Parameter haben.
-    
 
 > [!example] Beispiel: Funktionsüberladung
 > ```kotlin
@@ -87,6 +95,7 @@
 
 
 ## 🔹 Siehe auch
+
 - [[Datentypen]]
 - [[Kotlin Grundlagen]]
 - [[Null-Sicherheit]]

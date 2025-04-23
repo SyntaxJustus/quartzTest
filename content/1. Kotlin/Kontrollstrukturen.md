@@ -1,4 +1,3 @@
-# Kontrollstrukturen in Kotlin
 
 ## 🔹 if / else
 
@@ -29,6 +28,7 @@
 >    }
 > ```
 ## 🔹 when
+
 - Kotlin-Alternative zum klassischen `switch`.
 - Sehr flexibel: Werte, Bereiche, Bedingungen möglich.
 
@@ -47,6 +47,7 @@
 > ```
 
 ## 🔹 while-Schleife
+
 - Führt Code aus, solange eine Bedingung wahr ist.
 
 > [!example] Beispiel: while-Schleife
@@ -59,6 +60,7 @@
 > ```
 
 ## 🔹 do-while-Schleife
+
 - Führt Code **mindestens einmal** aus, bevor die Bedingung geprüft wird.
 
 > [!example] Beispiel: do-while-Schleife
@@ -71,6 +73,7 @@
 > ```
 
 ## 🔹 for-Schleife
+
 - Wird für Iteration über Bereiche, Arrays oder Listen verwendet.
 
 > [!example] Beispiel: for-Schleife mit Range
@@ -89,6 +92,7 @@
 > ```
 
 ## 🔹 break und continue
+
 - `break` → bricht die Schleife komplett ab.
 - `continue` → überspringt die aktuelle Iteration.
 
@@ -102,5 +106,6 @@
 > ```
 
 ## 🔹 Siehe auch
+
 - [[Operatoren]]
 - [[Funktionen ]]

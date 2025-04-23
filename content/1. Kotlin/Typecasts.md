@@ -1,12 +1,12 @@
 
 
-# Typecasts in Kotlin
-
 ## 🔹 Was ist Typecasting?
+
 - Typecasting bedeutet, einen Wert **explizit in einen anderen Typ zu überführen**.
 - Wird verwendet, wenn der **kompilierte Typ** allgemeiner ist als der tatsächliche Typ zur Laufzeit.
 
 ## 🔹 Smart Casts
+
 - Kotlin nutzt **Smart Casts**, um Typen automatisch zu erkennen **nach einer Prüfung mit `is`**.
 - Kein explizites Casting notwendig.
 
@@ -20,6 +20,7 @@
 > ```
 
 ## 🔹 Unsicheres Casten (`as`)
+
 - Mit `as` wird ein Wert **explizit gecastet**.
 - Wenn der Cast **fehlschlägt**, wirft Kotlin eine `ClassCastException`.
 
@@ -31,6 +32,7 @@
 > ```
 
 ## 🔹 Sicheres Casten (`as?`)
+
 - Gibt `null` zurück, wenn der Cast nicht möglich ist → **verhindert Ausnahmefehler**.
 - Nützlich bei optionalem oder unsicherem Typ.
 
@@ -42,6 +44,7 @@
 > ```
 
 ## 🔹 is & !is Operatoren
+
 - `is` prüft, ob ein Objekt einem Typ entspricht.
 - `!is` prüft das Gegenteil.
 
@@ -57,11 +60,14 @@
 > ```
 
 ## 🔹 Best Practices
+
 - **Smart Casts bevorzugen** – sicherer und idiomatischer.
 - Unsichere Casts nur verwenden, wenn absolut notwendig.
 - Bei komplexeren Objekthierarchien mit Vererbung: auf **Nullprüfungen und Typprüfungen achten**.
 
 ## 🔹 Siehe auch
+
 - [[Datentypen]]
 - [[Null-Sicherheit]]
+- [[Typkonvertierung]]
 - [[Kotlin Grundlagen]]

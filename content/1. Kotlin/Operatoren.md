@@ -1,6 +1,6 @@
-# Rechen- und Zuweisungsoperatoren
 
 ## 🔹 Rechenoperatoren
+
 - Werden verwendet, um mathematische Operationen durchzuführen.
 - Unterstützte Operatoren:
   - `+`  Addition
@@ -21,6 +21,7 @@
 > ```
 
 ## 🔹 Zuweisungsoperatoren
+
 - Kombinieren Rechenoperationen mit einer Variablenzuweisung.
 - Kurzschreibweisen:
   - `+=`  Addition und Zuweisung
@@ -40,6 +41,7 @@
 > ```
 
 ## 🔹 Inkrementierung & Dekrementierung
+
 - **`++`** erhöht eine Variable um 1 (Inkrementierung).
 - **`--`** verringert eine Variable um 1 (Dekrementierung).
 - Gibt es in zwei Varianten:
@@ -60,6 +62,7 @@
 > ```
 
 ## 🔹 Besonderheiten
+
 - Division mit Ganzzahlen (`Int`, `Long`) liefert ein ganzzahliges Ergebnis.
 - Für genauere Ergebnisse Gleitkommazahlen (`Double`, `Float`) verwenden.
 
@@ -70,5 +73,6 @@
 > ```
 
 ## 🔹 Siehe auch
-- [[Kontrollstrukturen in Kotlin]]
+
+- [[Kontrollstrukturen]]
 - [[Datentypen]]

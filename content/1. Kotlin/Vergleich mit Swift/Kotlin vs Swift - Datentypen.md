@@ -1,5 +1,4 @@
 
-
 | Kategorie        | Kotlin            | Swift             | Hinweise                                                                 |
 |------------------|-------------------|-------------------|--------------------------------------------------------------------------|
 | Ganzzahlen       | `Int`, `Long`, `Short`, `Byte` | `Int`, `Int64`, `UInt8` | Kotlin nutzt `Int` standardmäßig, Swift `Int` (plattformabhängig 32/64). |

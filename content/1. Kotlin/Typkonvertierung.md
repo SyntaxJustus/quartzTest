@@ -1,9 +1,11 @@
 
 ## 🔹 Überblick
+
 - In Kotlin wird Typkonvertierung verwendet, um Werte zwischen verschiedenen Typen zu konvertieren.
 - Es gibt **explizite** und **implizite** Konvertierungen, wobei Konvertierungsfunktionen und Typecasts häufig zum Einsatz kommen.
 
 ## 🔹 Konvertierungsfunktionen
+
 - Kotlin stellt eine Vielzahl von **Konvertierungsfunktionen** bereit, um Werte zwischen verschiedenen Typen zu konvertieren.
 - Diese Funktionen sind besonders nützlich, wenn du einen Wert in einen anderen Typ umwandeln möchtest.
 
@@ -16,6 +18,7 @@
 > ```
 
 ### 🔸 Häufig verwendete Konvertierungsfunktionen
+
 - **`toString()`**: Wandelt einen Wert in eine **String-Repräsentation** um.
 - **`toInt()`**: Wandelt einen String in eine **Ganzzahl (Int)** um, falls möglich.
 - **`toDouble()`**: Wandelt einen String oder eine Zahl in **Double** um.
@@ -32,6 +35,7 @@
 > ```
 
 ## 🔹 Automatische Konvertierungen bei numerischen Typen
+
 - Kotlin führt **automatische Konvertierungen** zwischen kompatiblen numerischen Typen durch, wie von `Int` zu `Double`, wenn der Kontext es zulässt.
 
 > [!example] Beispiel: Automatische numerische Konvertierung  

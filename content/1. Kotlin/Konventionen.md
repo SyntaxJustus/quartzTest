@@ -1,5 +1,6 @@
 
 ## 🔹 Überblick
+
 - Kotlin folgt einer Reihe von Konventionen und Best Practices für sauberen und wartbaren Code.
 - Ein Schwerpunkt liegt auf der **Namensgebung** von Klassen, Funktionen, Variablen und Konstanten.
 
@@ -18,6 +19,7 @@
   - Beispiel: `com.example.myapp`
 
 ## 🔹 Siehe auch
+
 - [[Listen]]
 - [[Funktionen]]
 - [Offizielle Dokumentation](https://kotlinlang.org/docs/coding-conventions.html)

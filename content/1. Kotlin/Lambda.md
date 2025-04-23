@@ -1,23 +1,27 @@
 
 ## 🔹 Überblick
+
 - **Lambdas** sind anonyme Funktionen, die direkt im Code definiert werden können.
 - Sie ermöglichen eine elegante und prägnante Art der Funktionsdefinition und -verwendung.
 - **Higher-Order Functions** sind Funktionen, die entweder **Funktionen als Parameter** akzeptieren oder **Funktionen zurückgeben**.
 
 ## 🔹 Lambda-Ausdrücke
+
 - Ein **Lambda-Ausdruck** ist eine Funktion ohne Namen, die als Wert behandelt wird.
 - Sie haben eine kompakte Syntax und können an andere Funktionen übergeben werden.
+
+
+>[!tip] Syntax eines Lambda-Ausdrucks:
+>  ```kotlin
+  >{parameter1: Typ1, parameter2: Typ2 -> Rückgabetyp}
+>  ```
+
 
 > [!example] Beispiel: Einfache Lambda-Funktion  
 > ```kotlin
 > val addiere: (Int, Int) -> Int = { a, b -> a + b }
 > println(addiere(2, 3))  // Ausgabe: 5
 > ```
-
-- Syntax eines Lambda-Ausdrucks:
-  ```kotlin
-  {parameter1: Typ1, parameter2: Typ2 -> Rückgabetyp}
-  ```
 
 ## 🔹 Funktionsaufruf mit Lambda
 

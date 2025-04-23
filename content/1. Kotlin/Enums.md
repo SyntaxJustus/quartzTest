@@ -1,10 +1,12 @@
 
 ## 🔹 Überblick
+
 - **Enums** (Aufzählungstypen) in Kotlin sind spezielle Klassen, die eine feste Anzahl von konstanten Werten definieren.
 - Sie werden häufig verwendet, wenn eine Variable nur eine von einer kleinen Anzahl an festen Optionen annehmen kann, z. B. Wochentage, Statuswerte oder Zustände.
 - Kotlin bietet eine leistungsstarke Implementierung von Enums, die neben den klassischen Konstanten auch Methoden und Felder enthalten können.
 
 ## 🔹 Definition einer Enum-Klasse
+
 - Eine Enum-Klasse wird mit dem Schlüsselwort **`enum class`** definiert.
 - Jede Konstante innerhalb der Enum-Klasse ist eine Instanz der Enum-Klasse.
 
@@ -19,6 +21,7 @@
 > ```
 
 ## 🔹 Enum mit Werten und Methoden
+
 - Enum-Klassen können zusätzliche Felder und Methoden haben.
 - Jeder Enum-Wert kann Konstruktorparameter haben, um damit verbundene Werte zu speichern.
 
@@ -38,6 +41,7 @@
 > ```
 
 ## 🔹 Zugriff auf Enum-Werte
+
 - Du kannst auf Enum-Werte mit ihrem Namen zugreifen oder durch Indizes navigieren.
 - **`values()`** gibt alle Werte der Enum-Klasse zurück.
 - **`valueOf()`** sucht einen Enum-Wert anhand des Namens.
@@ -56,7 +60,8 @@
 > ```
 
 ## 🔹 Enum und `when`-Ausdrücke
-- **`when`**-Ausdrücke eignen sich hervorragend zum Arbeiten mit Enums, da Kotlin den Compiler dazu anregen kann, sicherzustellen, dass alle möglichen Enum-Werte behandelt werden.
+
+- **`when`**-Ausdrücke eignen sich hervorragend zum Arbeiten mit Enums, da die limitierte Anzahl von Fällen komplett abgedeckt werden kann.
 
 > [!example] Beispiel: Verwendung von Enum in einem `when`-Ausdruck  
 > ```kotlin
@@ -75,5 +80,7 @@
 > ```
 
 ## 🔹 Siehe auch
+
 - [[Kotlin Grundlagen]]
 - [[Klassen]]
+- [[Kontrollstrukturen]]

@@ -1,12 +1,14 @@
 # Kotlin Grundlagen
 
 ## 🔹 Allgemeines
+
 - Kotlin ist eine **statisch typisierte** Programmiersprache.
 - Entwickelt von **JetBrains**, läuft auf der **JVM**.
 - Vollständig interoperabel mit **Java**.
 - Fokus auf **Sicherheit, Prägnanz und Ausdrucksstärke**.
 
 ## 🔹 Hauptmerkmale
+
 - **Null-Sicherheit**
 - **Typinferenz**
 - **Funktionen als First-Class Citizens**
@@ -15,6 +17,7 @@
 - **Coroutines für Nebenläufigkeit**
 
 ## 🔹 Einstieg: `main`-Funktion
+
 > [!example] Beispiel: Hauptfunktion
 > ```kotlin
 > fun main() {
@@ -23,6 +26,7 @@
 > ```
 
 ## 🔹 Variablen
+
 - `val` → **unveränderlich** 
 - `var` → **veränderlich**
 
@@ -33,6 +37,7 @@
 > ```
 
 ## 🔹 Funktionen
+
 - Definiert mit `fun`, Rückgabetyp optional bei Typinferenz.
 
 > [!example] Beispiel: Funktion mit Rückgabewert
@@ -43,6 +48,7 @@
 > ```
 
 ## 🔹 String Interpolation
+
 - Variablen können direkt in Strings eingebettet werden mit `$`.
 
 > [!example] Beispiel: String Interpolation
@@ -52,19 +58,24 @@
 > ```
 
 ## 🔹 Kommentare
+
 - Einzelne Zeile: `//`
 - Mehrzeilig: `/* ... */`
+- KDoc `/** ... */`
 
 ## 🔹 Datentypen (Auswahl)
+
 - Ganzzahlen: `Int`, `Long`, `Short`, `Byte`
 - Gleitkomma: `Double`, `Float`
 - Sonstige: `Boolean`, `Char`, `String`, `Any`, `Unit`, `Nothing`
 
 ## 🔹 Pakete und Dateien
+
 - Eine Datei kann mehrere Klassen/Funktionen enthalten.
 - Top-Level-Funktionen sind erlaubt (kein Klassen-Zwang).
 
 ## 🔹 Siehe auch
+
 - [[Datentypen]]
 - [[Funktionen]]
 - [[Null-Sicherheit]]

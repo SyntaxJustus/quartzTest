@@ -1,5 +1,4 @@
 
-
 Beide Sprachen sind modern, sicher und werden primär für die mobile Entwicklung eingesetzt:  
 - **Swift** → Apple-Ökosystem (iOS, macOS, etc.)  
 - **Kotlin** → Android (offizielle Sprache), multiplattformfähig mit Kotlin Multiplatform

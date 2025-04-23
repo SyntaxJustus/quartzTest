@@ -1,11 +1,13 @@
 # Vererbung
 
 ## 🔹 Überblick
+
 - **Vererbung** ermöglicht es einer Klasse, Eigenschaften und Methoden einer anderen Klasse zu übernehmen.
 - In Kotlin können Klassen mit dem Schlüsselwort **`open`** markiert werden, um sie vererbbar zu machen.
 - Eine Unterklasse kann eine Oberklasse erweitern, Methoden überschreiben und neue Eigenschaften hinzufügen.
 
 ## 🔹 Vererbung in Kotlin
+
 - **Unterklassen** erben von **Oberklassen**, wobei die Oberklasse **`open`** sein muss.
 - **Unterklassen** können Methoden der Oberklasse überschreiben, um die Funktionalität zu ändern.
 
@@ -29,6 +31,7 @@
 > ```
 
 ## 🔹 Überschreiben von Methoden
+
 - Um eine Methode in der Unterklasse zu überschreiben, muss die Methode in der Oberklasse mit dem Schlüsselwort **`open`** markiert werden.
 - Die Methode in der Unterklasse wird mit **`override`** überschrieben.
 
@@ -51,6 +54,7 @@
 > ```
 
 ## 🔹 Siehe auch
+
 - [[Kotlin Grundlagen]]
 - [[Methoden]]
 - [[Klassen]]

@@ -1,10 +1,12 @@
 
 ## 🔹 Überblick
+
 - **Klassen** sind die grundlegenden Bausteine der **objektorientierten Programmierung** in Kotlin.
 - Klassen definieren **Eigenschaften** und **Methoden**, die Objekte dieser Klasse besitzen können.
 - Kotlin unterstützt **normale Klassen**, **Datenklassen** und **abstrakte Klassen**.
 
 ## 🔹 Klassendefinition
+
 - Eine Klasse wird mit dem Schlüsselwort **`class`** definiert.
 - Eine Klasse kann **Konstruktoren** enthalten, sowohl **primäre** als auch **sekundäre Konstruktoren**.
 
@@ -21,6 +23,7 @@
 > ```
 
 ## 🔹 Primärer Konstruktor
+
 - Der **primäre Konstruktor** wird direkt in der Klassendeklaration angegeben.
 - **Eigenschaften**, die im Konstruktor definiert sind, können mit **`val`** (für unveränderbare) oder **`var`** (für veränderbare) deklariert werden.
 
@@ -34,6 +37,7 @@
 > ```
 
 ## 🔹 init-Block
+
 - Der `init`-Block wird **automatisch ausgeführt**, wenn eine Instanz der Klasse erstellt wird.
 - Er eignet sich für **zusätzliche Initialisierungslogik**, die über das reine Setzen von Eigenschaften hinausgeht.
 - Eine Klasse kann mehrere `init`-Blöcke enthalten – sie werden **in der Reihenfolge ihres Auftretens** ausgeführt.
@@ -52,6 +56,7 @@
 
 
 ## 🔹 Sekundäre Konstruktoren
+
 - Eine Klasse kann auch **sekundäre Konstruktoren** haben, die mit dem Schlüsselwort **`constructor`** definiert werden.
 - Der **primäre Konstruktor** muss wenn vorhanden von allen **sekundären Konstruktoren** aufgerufen werden.
 
@@ -71,6 +76,7 @@
 > ```
 
 ## 🔹 Datenklassen
+
 - Eine **Datenklasse** (`data class`) in Kotlin wird verwendet, um **Daten** zu modellieren.
 - Kotlin erzeugt automatisch **`toString()`**, **`equals()`**, **`hashCode()`** und **`copy()`**-Methoden für Datenklassen.
 
@@ -83,6 +89,7 @@
 > ```
 
 ## 🔹 Abstrakte Klassen
+
 - **Abstrakte Klassen** können nicht direkt instanziiert werden.
 - Sie dienen als Grundlage für andere Klassen und können abstrakte Methoden enthalten, die in den abgeleiteten Klassen implementiert werden müssen.
 
@@ -103,6 +110,7 @@
 > ```
 
 ## 🔹 Siehe auch
+
 - [[Kotlin Grundlagen]]
 - [[Methoden]]
 - [[Vererbung]]

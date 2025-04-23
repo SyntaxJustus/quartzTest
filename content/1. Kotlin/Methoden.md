@@ -1,10 +1,12 @@
 
 ## 🔹 Überblick
+
 - In Kotlin sind **Methoden** Funktionen, die innerhalb einer **Klasse** oder eines **Objekts** definiert werden.
 - Methoden können **Parameter** annehmen und **Werte** zurückgeben.
 - Kotlin unterstützt sowohl **Instanzmethoden** (die an Objekte gebunden sind) als auch **statische Methoden** (die an Klassen gebunden sind).
 
 ## 🔹 Funktionsdefinition
+
 - Eine Methode wird ähnlich wie eine Funktion definiert, jedoch innerhalb einer **Klasse**.
 - Sie kann mit oder ohne Rückgabewert sowie mit beliebigen Parametern definiert werden.
 
@@ -21,6 +23,7 @@
 > ```
 
 ### 🔸 Rückgabewert
+
 - Eine Methode kann einen Wert zurückgeben, der vom angegebenen Rückgabetyp ist.
 - Der Rückgabewert muss mit dem Rückgabetyp übereinstimmen, andernfalls wird ein Fehler auftreten.
 
@@ -35,6 +38,7 @@
 > ```
 
 ## 🔹 Methoden ohne Rückgabewert
+
 - Eine Methode kann auch ohne Rückgabewert definiert werden, was in Kotlin als **`Unit`** bezeichnet wird (vergleichbar mit `void` in anderen Programmiersprachen).
 
 > [!example] Beispiel: Methode ohne Rückgabewert  
@@ -47,6 +51,7 @@
 > ```
 
 ## 🔹 Standardmethoden
+
 - Kotlin bietet einige vordefinierte **Standardmethoden**, wie z. B. **`toString()`**, **`equals()`**, **`hashCode()`**, und **`copy()`**.
 - Diese Methoden sind in allen Klassen verfügbar und bieten grundlegende Funktionalitäten.
 
@@ -59,6 +64,7 @@
 > ```
 
 ## 🔹 Erweiterungsfunktionen
+
 - **Erweiterungsfunktionen** ermöglichen es, Methoden für bestehende Klassen hinzuzufügen, ohne die ursprüngliche Klasse zu verändern.
 
 > [!example] Beispiel: Erweiterungsfunktion  
@@ -71,6 +77,7 @@
 > ```
 
 ## 🔹 Methodenüberladung
+
 - In Kotlin können mehrere Methoden mit demselben Namen existieren, solange ihre **Parameterlisten** unterschiedlich sind.
 
 > [!example] Beispiel: Methodenüberladung  

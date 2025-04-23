@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      //"Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/syntaxinstitut", // Hier eventuell KursOrga verlinken?
+      //Weitere relevante Links kotlin Doku etc.,
     },
   }),
 }
@@ -21,8 +21,11 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    //Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    //Component.ContentMeta(), // Erstellungsdatum etc.
     Component.TagList(),
   ],
   left: [

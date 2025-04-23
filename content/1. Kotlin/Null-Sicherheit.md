@@ -1,9 +1,11 @@
 
 ## 🔹 Hintergrund
+
 - Kotlin wurde entwickelt, um das klassische **NullPointerException-Problem** zu vermeiden.
 - **Jede Variable ist standardmäßig nicht-nullbar**, außer man erlaubt explizit `null`.
 
 ## 🔹 Nullable-Typen
+
 - Mit `?` am Typ kann eine Variable `null` sein.
 - Beispiel: `String?` ist ein **nullable String**.
 
@@ -43,7 +45,8 @@
 > println(text!!.length) // → Exception: NullPointerException
 > ```
 
-## 🔹 Null-Prüfung mit `if`
+## 🔹 Null-Prüfung mit `if
+`
 - Gängige Möglichkeit, Nullable-Typen abzusichern.
 
 > [!example] Beispiel: Manuelle Null-Prüfung
@@ -55,7 +58,8 @@
 > }
 > ```
 
-## 🔹 Safe Cast mit `as?`
+## 🔹 Safe Cast mit `as?
+`
 - Gibt bei fehlgeschlagenem Cast `null` zurück, anstatt eine Exception zu werfen.
 
 > [!example] Beispiel: Safe Cast
@@ -65,11 +69,13 @@
 > ```
 
 ## 🔹 Best Practices
+
 - Nullable-Typen **nur verwenden, wenn nötig**.
 - Möglichst früh prüfen, ob Werte null sein können.
 - **Elvis-Operator** bevorzugen statt `!!`.
 
 ## 🔹 Siehe auch
+
 - [[Kotlin Grundlagen]]
 - [[Datentypen]]
 - [[Typecasts]]
