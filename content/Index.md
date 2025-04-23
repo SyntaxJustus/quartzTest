@@ -1,3 +1,0 @@
-# Startpunkt
-
-[[Kotlin Grundlagen]]
