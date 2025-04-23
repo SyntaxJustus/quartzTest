@@ -1,3 +1,4 @@
 # Startpunkt
 
-[[Kotlin Grundlagen]]
+- [[Kotlin Grundlagen]]
+ Fehlt hier noch etwas Text maybe?
