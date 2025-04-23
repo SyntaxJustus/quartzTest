@@ -1,17 +1,33 @@
 # Kontrollstrukturen in Kotlin
 
 ## 🔹 if / else
-- Verwendet zur bedingten Ausführung von Code.
-- `if` ist ein Ausdruck – gibt also einen Wert zurück.
 
-> [!example] Beispiel: if / else
+- Wird zur bedingten Ausführung von Code verwendet.
+    
+- In Kotlin ist `if` ein **Ausdruck** – er gibt also einen **Wert zurück** und kann z. B. direkt einer Variablen zugewiesen werden.
+    
+- Kann auch ohne Rückgabe verwendet werden, wie in klassischen Kontrollstrukturen.
+    
+
+> [!example] Beispiel: if / else mit Rückgabewert
 > ```kotlin
 > val a = 10
 > val b = 20
-> val max = if (a > b) a else b
+> val max = if (a > b) a else b   
 > println("Größere Zahl: $max")
 > ```
 
+> [!example] Beispiel: if / else if / else ohne Zuweisung
+> ```kotlin
+> val temperatur = 15
+>   if (temperatur > 30) {
+>        println("Es ist heiß.") 
+>    } else if (temperatur > 20) {
+>        println("Angenehmes Wetter.")
+>    } else {
+>        println("Eher kühl.")
+>    }
+> ```
 ## 🔹 when
 - Kotlin-Alternative zum klassischen `switch`.
 - Sehr flexibel: Werte, Bereiche, Bedingungen möglich.

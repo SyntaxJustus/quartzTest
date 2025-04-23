@@ -1,4 +1,3 @@
-# Klassen
 
 ## 🔹 Überblick
 - **Klassen** sind die grundlegenden Bausteine der **objektorientierten Programmierung** in Kotlin.
@@ -34,8 +33,27 @@
 > println(person.alter)  // Ausgabe: 30
 > ```
 
+## 🔹 init-Block
+- Der `init`-Block wird **automatisch ausgeführt**, wenn eine Instanz der Klasse erstellt wird.
+- Er eignet sich für **zusätzliche Initialisierungslogik**, die über das reine Setzen von Eigenschaften hinausgeht.
+- Eine Klasse kann mehrere `init`-Blöcke enthalten – sie werden **in der Reihenfolge ihres Auftretens** ausgeführt.
+
+> [!example] Beispiel: init-Block  
+> ```kotlin
+> class Person(val name: String, val alter: Int) {
+>     init {
+>         println("Neue Person: $name, $alter Jahre alt")
+>     }
+> }
+> 
+> val person = Person("Lena", 28)
+> // Ausgabe: Neue Person: Lena, 28 Jahre alt
+> ```
+
+
 ## 🔹 Sekundäre Konstruktoren
 - Eine Klasse kann auch **sekundäre Konstruktoren** haben, die mit dem Schlüsselwort **`constructor`** definiert werden.
+- Der **primäre Konstruktor** muss wenn vorhanden von allen **sekundären Konstruktoren** aufgerufen werden.
 
 > [!example] Beispiel: Sekundärer Konstruktor  
 > ```kotlin

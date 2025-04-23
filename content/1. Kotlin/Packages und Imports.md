@@ -1,4 +1,3 @@
-# Packages und Imports in Kotlin
 
 ## 🔹 Was sind Packages?
 - Ein **Package** (Paket) ist eine logische Gruppierung von Klassen, Funktionen etc.

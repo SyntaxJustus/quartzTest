@@ -1,4 +1,3 @@
-# Null-Sicherheit
 
 ## 🔹 Hintergrund
 - Kotlin wurde entwickelt, um das klassische **NullPointerException-Problem** zu vermeiden.

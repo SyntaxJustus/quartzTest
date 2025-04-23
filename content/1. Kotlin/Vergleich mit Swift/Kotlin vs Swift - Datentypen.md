@@ -14,7 +14,9 @@
 | Typinferenz      | Automatisch       | Automatisch       | Beide Sprachen erkennen Typen zur Compilezeit.                           |
 
 ## 🔹 Siehe auch
+- [[Kotlin vs Swift - Vergleich]]
 - [[Datentypen]]
 - [[Null-Sicherheit]]
 - [[Typecasts]]
 - [[Kotlin Grundlagen]]
+  

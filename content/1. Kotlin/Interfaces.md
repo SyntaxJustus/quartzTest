@@ -7,7 +7,8 @@
 
 ## 🔹 Definition von Interfaces
 - Ein **Interface** wird mit dem Schlüsselwort **`interface`** definiert.
-- **Methoden** in einem Interface haben keine Implementierungen, es sei denn, sie sind als **`default`** oder **`abstract`** markiert.
+- **Methoden** in einem Interface müssen keine Implementierung haben.
+- Implementiert eine Klasse ein Interface, müssen alle Methoden aus diesem eine Implementierung haben
 
 > [!example] Beispiel: Ein einfaches Interface  
 > ```kotlin
