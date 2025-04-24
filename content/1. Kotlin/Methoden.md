@@ -22,34 +22,6 @@
 > println(rechner.addiere(3, 5))  // Ausgabe: 8
 > ```
 
-### 🔸 Rückgabewert
-
-- Eine Methode kann einen Wert zurückgeben, der vom angegebenen Rückgabetyp ist.
-- Der Rückgabewert muss mit dem Rückgabetyp übereinstimmen, andernfalls wird ein Fehler auftreten.
-
-> [!example] Beispiel: Methode mit Rückgabewert  
-> ```kotlin
-> fun multipliziere(a: Int, b: Int): Int {
->     return a * b
-> }
-> 
-> val result = multipliziere(4, 5)
-> println(result)  // Ausgabe: 20
-> ```
-
-## 🔹 Methoden ohne Rückgabewert
-
-- Eine Methode kann auch ohne Rückgabewert definiert werden, was in Kotlin als **`Unit`** bezeichnet wird (vergleichbar mit `void` in anderen Programmiersprachen).
-
-> [!example] Beispiel: Methode ohne Rückgabewert  
-> ```kotlin
-> fun druckeBegrueßung(name: String): Unit {
->     println("Hallo, $name!")
-> }
-> 
-> druckeBegrueßung("Anna")  // Ausgabe: Hallo, Anna!
-> ```
-
 ## 🔹 Standardmethoden
 
 - Kotlin bietet einige vordefinierte **Standardmethoden**, wie z. B. **`toString()`**, **`equals()`**, **`hashCode()`**, und **`copy()`**.

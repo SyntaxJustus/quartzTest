@@ -1,12 +1,8 @@
-
 ## 🔹 if / else
 
 - Wird zur bedingten Ausführung von Code verwendet.
-    
 - In Kotlin ist `if` ein **Ausdruck** – er gibt also einen **Wert zurück** und kann z. B. direkt einer Variablen zugewiesen werden.
-    
 - Kann auch ohne Rückgabe verwendet werden, wie in klassischen Kontrollstrukturen.
-    
 
 > [!example] Beispiel: if / else mit Rückgabewert
 > ```kotlin
@@ -27,6 +23,7 @@
 >        println("Eher kühl.")
 >    }
 > ```
+
 ## 🔹 when
 
 - Kotlin-Alternative zum klassischen `switch`.
@@ -105,7 +102,19 @@
 > }
 > ```
 
+## 🔹 repeat
+
+- Führt einen Codeblock eine festgelegte Anzahl von Malen aus.
+- Nützlich für wiederholte Aktionen, bei denen keine Schleifenvariable benötigt wird.
+
+> [!example] Beispiel: repeat
+> ```kotlin
+> repeat(3) {
+>     println("Dies wird 3 mal ausgegeben")
+> }
+> ```
+
 ## 🔹 Siehe auch
 
 - [[Operatoren]]
-- [[Funktionen ]]
+- [[Funktionen]]

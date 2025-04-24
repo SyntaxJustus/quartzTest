@@ -17,6 +17,7 @@
 
 ## 🔹 Zugriff auf Nullable-Werte
 ### 1. **Sicherer Zugriff mit `?.`**
+
 - Führt Methode/Operation **nur aus, wenn nicht null**.
 
 > [!example] Beispiel: Sichere Methode mit `?.`
@@ -26,6 +27,7 @@
 > ```
 
 ### 2. **Elvis-Operator `?:`**
+
 - Gibt einen **Standardwert zurück**, wenn die Variable null ist.
 
 > [!example] Beispiel: Elvis-Operator
@@ -36,6 +38,7 @@
 > ```
 
 ### 3. **Nicht-null Assertion `!!`**
+
 - Erzwingt Zugriff → löst **Fehler aus, wenn null**.
 - **Vorsicht!** Nur verwenden, wenn man sich 100 % sicher ist.
 
@@ -45,8 +48,8 @@
 > println(text!!.length) // → Exception: NullPointerException
 > ```
 
-## 🔹 Null-Prüfung mit `if
-`
+## 🔹 Null-Prüfung mit `if`
+
 - Gängige Möglichkeit, Nullable-Typen abzusichern.
 
 > [!example] Beispiel: Manuelle Null-Prüfung
@@ -58,8 +61,8 @@
 > }
 > ```
 
-## 🔹 Safe Cast mit `as?
-`
+## 🔹 Safe Cast mit `as?`
+
 - Gibt bei fehlgeschlagenem Cast `null` zurück, anstatt eine Exception zu werfen.
 
 > [!example] Beispiel: Safe Cast

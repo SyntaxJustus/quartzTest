@@ -112,6 +112,7 @@
 ## 🔹 Siehe auch
 
 - [[Kotlin Grundlagen]]
+- [[Objekte]]
 - [[Methoden]]
 - [[Vererbung]]
 - [[Interfaces]]
