@@ -9,7 +9,7 @@
 >[!tip] Die Grundstruktur einer Funktion:
 >```kotlin
   >fun funktionName(parameter1: Typ1, parameter2: Typ2): Rückgabetyp {
-    >  // Funktionskörper
+ >   // Funktionskörper
   >}
 >```
 
