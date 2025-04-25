@@ -1,5 +1,3 @@
-# Startpunkt
-
-Übersicht der Themen Modul 4 (WIP)
+# Home
 
 - [[Kotlin Grundlagen]]
