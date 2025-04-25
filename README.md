@@ -2,7 +2,7 @@
 
 - Quartz initialisieren wie [hier](https://quartz.jzhao.xyz/) beschrieben
 
-# Notwendige Anpassungen
+## Notwendige Anpassungen
 
 - baseUrl in [ConfigDatei](quartz.config.ts) anpassen(<Ersteller Name / Organame>.github.io/repoName)
 - Links in sharePageComponents in [Layout](quartz.layout.ts) anpassen
